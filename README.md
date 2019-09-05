@@ -1,4 +1,4 @@
-# google-assistant
+# Google Assistant
 Build an Action For Google Assistant
 
 # Setting up
