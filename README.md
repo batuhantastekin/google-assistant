@@ -49,11 +49,11 @@ You should now be taken to Dialogflow.
 
 ### Set up fulfillment
 - Click the fullfillment tab and enable the inline editor. Note: For external network calls, you need to set up the Firebase project to be on a paid plan, which is needed to test the external calls to Twitter. To do this, click "View execution logs in the Firebase console" after the inline editor has been deployed for the first time, and then change the plan from within Firebase. 
-- Paste the [index.js](https://github.com/MLH/localhost-google/blob/master/cloud-function/index.js) and fill in the necessary variables, namely:
+- Paste the [index.js](https://github.com/batuhantastekin/google-assistant/blob/master/cloud-assistant/index.js) and fill in the necessary variables, namely:
   - projectId: Use the GCP project id (example: actions-test-224503) you noted earlier.
   - CONSUMER_KEY, CONSUMER_SECRET: To retrieve your application consumer key and secret, follow the steps to create a Twitter developer account and app [here](
 https://developer.twitter.com/en/docs/basics/developer-portal/guides/apps.html). Once you apply for a developer account and create an app, you can get access to the consumer key and secret under Apps -->
 Details button on App --> Keys and Tokens --> Consumer API Keys.
   - TWITTER_ENV: The twitter environment you will use will be one you create [here](https://developer.twitter.com/en/account/environments) (after you have logged into your developer account).
-- After this, click on the "package.json" tab and paste in the [package.json](https://github.com/MLH/localhost-google/blob/master/cloud-function/package.json) provided.
+- After this, click on the "package.json" tab and paste in the [package.json](https://github.com/batuhantastekin/google-assistant/blob/master/cloud-assistant/package.json) provided.
 - Click deploy.
